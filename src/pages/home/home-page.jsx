@@ -14,6 +14,7 @@ export const Home = () => {
         <Grid container spacing={3}>
           <Grid item xs={12}>
             <Paper sx={{ p: 2, display: "flex", flexDirection: "column" }}>
+              {/* Pegar os dados do Backend (de pesquisas) e passar para este componente para exibir na tabela */}
               <DataTable />
             </Paper>
           </Grid>
