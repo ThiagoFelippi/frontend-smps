@@ -4,13 +4,13 @@ export const defaultColumns = [
   { field: "atribuicao", headerName: "Atribuição", width: 160 },
   {
     field: "ultima_atualizacao",
+    type: "date",
     headerName: "Ultima atualização",
     width: 200,
   },
   {
     field: "requer_atencao",
     headerName: "Requer atenção",
-    sortable: false,
     width: 140,
   },
 ];
